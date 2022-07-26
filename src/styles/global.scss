@@ -1,0 +1,19 @@
+
+$display-font-family: 'Cormorant SC', serif;
+
+$primary:       rgb(143, 193, 254);
+$secondary:     rgb(33, 58, 108);
+$success:       rgb(175, 89, 77);
+$btn-border-radius: 0 ;
+$card-border-radius:0;
+$card-box-shadow:10px 10px 0 0 rgb(68, 68, 118);
+
+$btn-hover-bg-shade-amount:       100%;
+$pagination-border-radius: 0;
+
+
+
+
+
+
+@import'~bootstrap/scss/bootstrap.scss'
