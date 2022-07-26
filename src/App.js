@@ -5,7 +5,7 @@ import Home from './page/Home';
 import FrontEnd from './page/FrontEnd';
 import Uiux from './page/UIUX';
 import Others from './page/Others';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
