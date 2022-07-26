@@ -2,7 +2,9 @@ import React from 'react'
 
 function FrontEnd() {
   return (
-    <div>FrontEnd</div>
+    <>
+      <h1>FrontEnd</h1>
+    </>
   )
 }
 
