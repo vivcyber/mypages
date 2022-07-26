@@ -1,20 +1,31 @@
 
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './page/Home';
+import FrontEnd from './page/FrontEnd';
+import Uiux from './page/UIUX';
+import Others from './page/Others';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
     <>
-
+    
+    <BrowserRouter>  
     <Navbar/>
-      <h1>HELLO WORLD</h1>
-      <h2>HELLO WORLD</h2>
-      <h3>HELLO WORLD</h3>
-      <h4>HELLO WORLD</h4>
-      <h5>HELLO WORLD</h5>
-      <h6 className='text-white'>HELLO WORLD</h6>
-      <p>HELLO WORLD</p>
-      <button className='btn btn-dark'>what</button>
+       <Routes>
+          <Route path="/home" element={<Home />} />
+          <Route path="/frontend" element={<FrontEnd />} />
+          <Route path="/uiux" element={<Uiux />} />
+          <Route path="/others" element={<Others />} />
+       </Routes>
+
+   
+  </BrowserRouter>
+   
+
+    
+      
     </>
   );
 }

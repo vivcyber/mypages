@@ -1,25 +1,35 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <>
-     <ul className="nav justify-content-center bg-dark text-white py-2">
-  <li className="nav-item">
-    <a className="nav-link text-white" aria-current="page" >HOME</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link text-white" >FRONT END</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link text-white" >UIUX</a>
-  </li>
-  <li className="nav-item">
-    <a className="nav-link text-white" >OTHERS</a>
-  </li>
-  
-</ul>
+      <nav className="">
+        <ul className="nav justify-content-center bg-dark text-white py-2">
+          <li className="nav-item ">
+            <Link className="nav-link text-white" to="/home">
+              Home
+            </Link>
+          </li>
+          <li className="nav-item ">
+            <Link className="nav-link text-white" to="/frontend">
+              FrontEnd
+            </Link>
+          </li>
+          <li className="nav-item ">
+            <Link className="nav-link text-white" to="/uiux">
+              UIUX
+            </Link>
+          </li>
+          <li className="nav-item ">
+            <Link className="nav-link text-white" to="/others">
+              Others
+            </Link>
+          </li>
+        </ul>
+      </nav>
     </>
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
