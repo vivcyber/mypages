@@ -5,16 +5,16 @@ function Navbar() {
     <>
      <ul className="nav justify-content-center bg-dark text-white py-2">
   <li className="nav-item">
-    <a className="nav-link text-white" aria-current="page" href="#">HOME</a>
+    <a className="nav-link text-white" aria-current="page" >HOME</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link text-white" href="#">FRONT END</a>
+    <a className="nav-link text-white" >FRONT END</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link text-white" href="#">UIUX</a>
+    <a className="nav-link text-white" >UIUX</a>
   </li>
   <li className="nav-item">
-    <a className="nav-link text-white" href="#">OTHERS</a>
+    <a className="nav-link text-white" >OTHERS</a>
   </li>
   
 </ul>
