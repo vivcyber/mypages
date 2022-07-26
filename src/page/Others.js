@@ -2,7 +2,9 @@ import React from 'react'
 
 function Others() {
   return (
-    <div>Others</div>
+    <>
+      <h1>Other Works</h1>
+    </>
   )
 }
 

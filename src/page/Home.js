@@ -3,7 +3,7 @@ import React from 'react'
 function Home() {
   return (
     <>
-        <button className='btn btn-primary'>真的假的</button>
+        <h1>可惡！</h1>
     </>
   )
 }

@@ -2,7 +2,9 @@ import React from 'react'
 
 function UIUX() {
   return (
-    <div>UIUX</div>
+    <>
+      <h1>AlRight</h1>
+    </>
   )
 }
 
