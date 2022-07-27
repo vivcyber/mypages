@@ -6,7 +6,7 @@ function FrontEnd() {
     <>
  
      <a href="https://vivcyber.github.io/cakeshop/" target="_blank" rel="noreferrer">
-      Google.com
+      CAKESHOP
     </a>
     </>
   )
