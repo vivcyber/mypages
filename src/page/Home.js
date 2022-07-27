@@ -20,10 +20,46 @@ function Home() {
           </div>
           <div className="discrib col-8 ">
             <div className='border-bottom border-dark px-3 py-1'><h2>WHAT I DO</h2></div>
-            <div className='border-bottom border-dark px-3 py-1'>
-              <p>HTML CSS JAVASCRIP技術</p>
-              <p>RWD切版</p>
-              <p>API串接</p>
+            <div class="position">
+              <div className='border-bottom border-dark bg-dark text-white px-3 py-1'><h6>Front End</h6></div>
+              <div className='border-bottom border-dark px-3 py-2'>
+                <p>HTML規劃 CSS樣式製作 JavaScript功能撰寫</p>
+                <p>RWD切版 動態效果製作</p>
+                <p>API串接 React JS前端框架使用</p>
+              </div>
+              <div className='border-bottom border-dark p-3'>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>HTML</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>CSS</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>JavaScript</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>ReactJs</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Node.JS</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>PHP</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Boostrap</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>JQuary</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>MUI</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>MYSQL</h6>
+              
+              </div>
+            </div>
+
+            <div class="position">
+              <div className='border-bottom border-dark bg-dark text-white px-3 py-1'><h6>UIUX Designer</h6></div>
+              <div className='border-bottom border-dark px-3 py-2'>
+                <p>使用者流程規劃Wareframe</p>
+                <p>WEB APP GUI介面設計</p>
+                <p>圖像設計 動畫效果製作</p>
+              </div>
+              <div className='border-bottom border-dark p-3'>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>SKETCH</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Figma</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Photoshop</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Illustrator</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Axur</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>After Effect</h6>
+              <h6 className='badge py-2 px-3 rounded-5 border border-dark text-dark m-1'>Lottie</h6>
+             
+              
+              </div>
             </div>
           </div>
         </div>
