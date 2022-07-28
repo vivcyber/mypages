@@ -6,7 +6,7 @@ function Home() {
     <>
       <div class="container">
         <div className="main d-flex border border-dark">
-          <div className="person col-4  border-end border-dark ">
+          <div className="person col-12 col-mb-4  border-end border-dark ">
             <div class="left h-75">
               <div className="pic h-75 overflow-hidden  border-bottom border-dark">
         
@@ -18,7 +18,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="discrib col-8 ">
+          <div className="discrib col-12 col-mb-8 ">
             <div className='border-bottom border-dark px-3 py-1'><h2>WHAT I DO</h2></div>
             <div class="position">
               <div className='border-bottom border-dark bg-dark text-white px-3 py-1'><h6>Front End</h6></div>
